@@ -1,0 +1,21 @@
+{
+  "name": "reactive-casr-backend",
+  "version": "1.0.0",
+  "description": "Backend serverless functions for Reactive CASR",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch api/callback.ts",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.3",
+    "ethers": "^6.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@vercel/node": "^3.0.14",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
